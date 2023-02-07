@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ template "ethereum.fullname" . }}-miner-node
+  name: {{ template "ethereum.fullname" . }}-validator-node
   labels:
-    app: {{ template "ethereum.fullname" . }}-miner-node
+    app: {{ template "ethereum.fullname" . }}-validator-node
     chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
-  replicas: {{ .Values.geth.miner.replicas }}
+  replicas: 1
   selector:
     matchLabels:
-      app: {{ template "ethereum.fullname" . }}-miner-node
+      app: {{ template "ethereum.fullname" . }}-validator-node
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ template "ethereum.fullname" . }}-miner-node
+        app: {{ template "ethereum.fullname" . }}-validator-node
         release: {{ .Release.Name }}
         miner: "0"
     spec:
