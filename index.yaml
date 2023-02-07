@@ -129,6 +129,14 @@ entries:
     version: 0.0.2
   ethereum:
   - apiVersion: v1
+    created: "2023-02-07T14:11:47.656782891Z"
+    description: Geth private network for reorg tests
+    digest: e4826c94d375cdc6bd384c6172351f935b26099338a2cb619213376d04f28a99
+    name: ethereum
+    urls:
+    - ethereum-0.0.13.tgz
+    version: 0.0.13
+  - apiVersion: v1
     created: "2023-02-07T14:05:52.149767435Z"
     description: Geth private network for reorg tests
     digest: f7eb2e47cd2c205557fc50e58bdfc4f61d74c020f691ed2195e1c949ecbe3aed
@@ -672,4 +680,4 @@ entries:
     urls:
     - starknetdev-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-07T14:05:52.149013524Z"
+generated: "2023-02-07T14:11:47.655788388Z"
