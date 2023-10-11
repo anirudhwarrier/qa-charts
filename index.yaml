@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   chainlink:
   - apiVersion: v1
+    appVersion: 2.5.0
+    created: "2023-10-11T04:47:02.344943373Z"
+    description: A Helm chart for Kubernetes
+    digest: a66ab6dd28b85266e7db72c78a11f1f82a71b239a0f22eb1d320882186211821
+    name: chainlink
+    urls:
+    - chainlink-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v1
     appVersion: 1.9.0
     created: "2022-11-29T17:03:51.242804647Z"
     description: A Helm chart for Kubernetes
@@ -193,9 +202,9 @@ entries:
     - ethereum-0.0.6.tgz
     version: 0.0.6
   - apiVersion: v1
-    created: "2023-02-07T08:25:58.24326419Z"
+    created: "2023-10-11T04:47:02.346102385Z"
     description: Geth private network for reorg tests
-    digest: c8819a7ddbacadc7a536e52f138f9c4b4bbeffbd1527f02f953eed61b6558435
+    digest: c231510de536fe87bd6b4e814ea555d06df35024a52fdf0c59e565cbfed9d5bf
     name: ethereum
     urls:
     - ethereum-0.0.5.tgz
@@ -233,6 +242,15 @@ entries:
     - ethereum-0.0.1.tgz
     version: 0.0.1
   geth:
+  - apiVersion: v1
+    appVersion: 1.10.25
+    created: "2023-10-11T04:47:02.346791491Z"
+    description: A simulated go-ethereum network
+    digest: 5f403a3231ab5b7d8e4300380cb598171202868e2ec474b34c5b4bd43812a868
+    name: geth
+    urls:
+    - geth-0.3.2.tgz
+    version: 0.3.2
   - apiVersion: v1
     appVersion: 1.16.0
     created: "2022-11-07T14:44:47.598257494Z"
@@ -455,6 +473,16 @@ entries:
     urls:
     - prometheus-0.1.0.tgz
     version: 0.1.0
+  qa-mock-adapter:
+  - apiVersion: v1
+    appVersion: 5.11.1
+    created: "2023-10-11T04:47:02.347454198Z"
+    description: QA mock adapter
+    digest: 1ff4785d9bcfebad20ab74f6f9aeef4395e97ff0d51d47c16633c343a36e9b38
+    name: qa-mock-adapter
+    urls:
+    - qa-mock-adapter-1.0.0.tgz
+    version: 1.0.0
   remote-test-runner:
   - apiVersion: v1
     appVersion: 1.0.0
@@ -634,6 +662,15 @@ entries:
   solana-validator:
   - apiVersion: v1
     appVersion: 1.16.0
+    created: "2023-10-11T04:47:02.348294306Z"
+    description: A Helm chart for Kubernetes
+    digest: 74311e0b39eaa9800646b8d1468f7ddda51e9f7520ad6d34a53dc4196d0f6387
+    name: solana-validator
+    urls:
+    - solana-validator-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: 1.16.0
     created: "2022-10-24T18:30:49.633479776Z"
     description: A Helm chart for Kubernetes
     digest: f7da9dfca127f9e4118f3f464c56faf8340be71b9af9e73402cf4aa474bffd6b
@@ -680,4 +717,4 @@ entries:
     urls:
     - starknetdev-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-07T14:11:47.655788388Z"
+generated: "2023-10-11T04:47:02.343651561Z"
